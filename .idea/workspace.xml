@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="框架">
+    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="数据库">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6acae3e-10a8-4667-b906-80ed9d305d9f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a6acae3e-10a8-4667-b906-80ed9d305d9f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/isoft/OrderServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/isoft/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Vue File" />
         <option value="Class" />
       </list>
     </option>
@@ -56,11 +74,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/tips/NacosTeam08&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/tips/NacosTeam08/order-service/src/main/resources/SQL&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.50344825&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;73700fa6a1f4047b103bb3d15b3cab75&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -72,6 +90,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\tips\NacosTeam08\order-service\src\main\resources\SQL" />
       <recent name="F:\tips\NacosTeam08\user-service\src\main\resources" />
     </key>
   </component>
@@ -82,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="NacosTeam08Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="NacosTeam08" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.isoft.NacosTeam08Application" />
@@ -129,7 +148,12 @@
       <workItem from="1694592964594" duration="1393000" />
       <workItem from="1694611489712" duration="101000" />
       <workItem from="1694611750707" duration="1122000" />
-      <workItem from="1694996450929" duration="313000" />
+      <workItem from="1694996450929" duration="4172000" />
+      <workItem from="1695033151962" duration="608000" />
+      <workItem from="1695082619010" duration="5208000" />
+      <workItem from="1695113898465" duration="1835000" />
+      <workItem from="1695115757474" duration="3984000" />
+      <workItem from="1695124788918" duration="6023000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -138,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694593010737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据库">
+      <created>1694996880168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694996880168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="框架" />
+    <MESSAGE value="数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库" />
   </component>
 </project>

@@ -1,7 +1,6 @@
 server:
   port: 9000
-  servlet:
-    context-path: /order-Service
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/jiaotong_management?useSSL=false
@@ -13,10 +12,11 @@ spring:
       discovery:
         server-addr: localhost:8848
 #        namespace: 10ecded1-361f-45d7-a009-ad2355304ff5
-      config:
-        server-addr: localhost:8848
-#        namespace: 10ecded1-361f-45d7-a009-ad2355304ff5
-        prefix: order
-        file-extension: yml
+#      config:
+#        server-addr: localhost:8848
+##        namespace: 10ecded1-361f-45d7-a009-ad2355304ff5
+#        prefix: order
+#        file-extension: yml
   application:
     name: order
+
