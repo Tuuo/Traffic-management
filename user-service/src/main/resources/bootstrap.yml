@@ -19,7 +19,24 @@ spring:
 #        file-extension: yml
   application:
     name: user
+  jackson:
+    time-zone: Asia/Shanghai
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
 mybatis:
   type-aliases-package: com.isoft.entity
   configuration:
     map-underscore-to-camel-case: true
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.isoft.entity
+#jwt配置
+jwt:
+  #密钥
+  secret: com.isoft
+  #过期时间(30min)
+  expiration: 1800000
+
+

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 //@ComponentScan(basePackages = {"com.isoft.mapper"})
-@MapperScan("com.isoft.mapper")
+@MapperScan("com.isoft.dao")
 //@EnableDiscoveryClient
 public class UserServiceApplication {
     public static void main(String[] args) {

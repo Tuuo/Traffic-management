@@ -1,6 +1,6 @@
 package com.isoft.service;
 
-import com.isoft.entity.User;
+import com.isoft.entity.Role;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,8 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author xiuqing
  * @since 2023-09-23
  */
-public interface UserService extends IService<User> {
+public interface RoleService extends IService<Role> {
 
-
-    User findByUsername(String username);
 }

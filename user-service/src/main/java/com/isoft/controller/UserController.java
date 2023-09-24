@@ -1,30 +1,29 @@
 package com.isoft.controller;
 
-import com.isoft.entity.User;
 import com.isoft.service.UserService;
+import com.isoft.utils.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/user")
+//@CrossOrigin
 public class UserController {
-
     @Autowired
     private UserService userService;
 
     /**
-     * 路径： /user/110
-     *
-     * @param id 用户id
-     * @return 用户
+     * 查询所有用户信息（测试使用）
+     * @param
+     * @return
      */
-    @GetMapping("/{id}")
-    public User queryById(@PathVariable("id") Integer id) {
-        return userService.queryById(id);
+    @GetMapping("/listAll")
+    public Result listAll(){
+        return Result.ok(userService.list());
     }
+
+
+
 }

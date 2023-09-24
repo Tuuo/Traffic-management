@@ -29,6 +29,7 @@
         <spring-cloud.version>Hoxton.SR10</spring-cloud.version>
         <mysql.version>5.1.47</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
+        <mybatis-plus.version>3.5.1</mybatis-plus.version>
     </properties>
 
     <dependencyManagement>
@@ -60,6 +61,8 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
