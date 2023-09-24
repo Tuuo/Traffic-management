@@ -1,7 +1,7 @@
 package com.isoft.controller;
 
 import com.isoft.service.UserService;
-import com.isoft.utils.Result;
+import com.isoft.controller.utils.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

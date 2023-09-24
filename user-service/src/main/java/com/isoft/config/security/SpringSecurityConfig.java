@@ -1,10 +1,11 @@
 package com.isoft.config.security;
 
+import com.isoft.config.security.filter.CheckTokenFilter;
 import com.isoft.config.security.handler.AnonymousAuthenticationHandler;
 import com.isoft.config.security.handler.CustomerAccessDeniedHandler;
 import com.isoft.config.security.handler.LoginFailureHandler;
 import com.isoft.config.security.handler.LoginSuccessHandler;
-import com.isoft.config.service.CustomerUserDetailsService;
+import com.isoft.config.security.service.CustomerUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -13,6 +14,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import javax.annotation.Resource;
 
@@ -30,6 +32,8 @@ public class SpringSecurityConfig  extends WebSecurityConfigurerAdapter {
     @Resource
     private CustomerUserDetailsService customerUserDetailsService;
 
+    @Resource
+    private CheckTokenFilter checkTokenFilter;
     /**
      * 注入加密类
      * @return
@@ -47,6 +51,9 @@ public class SpringSecurityConfig  extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+      //登录前进行过滤
+        http.addFilterBefore(checkTokenFilter,
+                UsernamePasswordAuthenticationFilter.class);
        //登录过程处理
         http.formLogin()  //表单登录
                 .loginProcessingUrl("/api/user/login") //登录请求

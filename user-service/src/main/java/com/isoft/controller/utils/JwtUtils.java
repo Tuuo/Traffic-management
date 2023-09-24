@@ -1,4 +1,4 @@
-package com.isoft.utils;
+package com.isoft.controller.utils;
 
 
 import com.isoft.entity.User;

@@ -3,8 +3,8 @@ package com.isoft.config.security.handler;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 
-import com.isoft.utils.Result;
-import com.isoft.utils.ResultCode;
+import com.isoft.controller.utils.Result;
+import com.isoft.controller.utils.ResultCode;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.stereotype.Component;

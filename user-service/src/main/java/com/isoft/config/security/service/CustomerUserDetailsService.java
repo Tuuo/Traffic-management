@@ -1,4 +1,4 @@
-package com.isoft.config.service;
+package com.isoft.config.security.service;
 
 
 import com.google.errorprone.annotations.Var;

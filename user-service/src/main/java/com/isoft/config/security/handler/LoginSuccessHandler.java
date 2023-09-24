@@ -1,10 +1,11 @@
 package com.isoft.config.security.handler;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.isoft.config.redis.RedisService;
 import com.isoft.entity.User;
-import com.isoft.utils.JwtUtils;
-import com.isoft.utils.LoginResult;
-import com.isoft.utils.ResultCode;
+import com.isoft.controller.utils.JwtUtils;
+import com.isoft.controller.utils.LoginResult;
+import com.isoft.controller.utils.ResultCode;
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
@@ -29,7 +30,8 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 
    @Resource
    private JwtUtils jwtUtils;
-
+    @Resource
+   private RedisService redisService;
     @Override
     public void onAuthenticationSuccess(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Authentication authentication) throws IOException, ServletException {
         //设置响应的编码格式
@@ -55,6 +57,9 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
         outputStream.write(result.getBytes(StandardCharsets.UTF_8));
         outputStream.flush();
         outputStream.close();
-
+        //将token信息保存到redis中
+        //把生成的token存到redis
+        String tokenKey = "token_"+token;
+        redisService.set(tokenKey,token,jwtUtils.getExpiration() / 1000);
     }
 }
