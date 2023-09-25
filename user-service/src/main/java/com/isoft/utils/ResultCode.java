@@ -1,4 +1,4 @@
-package com.isoft.controller.utils;
+package com.isoft.utils;
 
 public class ResultCode {
     /**

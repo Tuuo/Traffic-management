@@ -3,8 +3,7 @@ package com.isoft.config.security.handler;
 import com.alibaba.fastjson.JSON;
 
 import com.isoft.config.security.exception.CustomerAuthenticationException;
-import com.isoft.controller.utils.Result;
-import com.isoft.controller.utils.ResultCode;
+import com.isoft.utils.Result;
 import org.springframework.security.authentication.*;
 import org.springframework.security.core.AuthenticationException;
 import

@@ -1,4 +1,4 @@
-package com.isoft.controller.utils;
+package com.isoft.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="缓存+检查过滤器">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/TokenVo.java" afterDir="false" />
+    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="刷新token，获取登录用户信息">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/MenuTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/RouterVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/filter/CheckTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/filter/CheckTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/AnonymousAuthenticationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/AnonymousAuthenticationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/CustomerAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/CustomerAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/LoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/LoginFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/security/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/utils/LoginResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/LoginResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/utils/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/ResultCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +165,7 @@
       <workItem from="1695521321339" duration="10085000" />
       <workItem from="1695554195340" duration="949000" />
       <workItem from="1695555155793" duration="12445000" />
-      <workItem from="1695601252290" duration="4036000" />
+      <workItem from="1695601252290" duration="8743000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -192,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695569363560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="刷新token，获取登录用户信息">
+      <created>1695605903627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695605903627</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +232,8 @@
     <MESSAGE value="修改后" />
     <MESSAGE value="用户权限" />
     <MESSAGE value="缓存+检查过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="缓存+检查过滤器" />
+    <MESSAGE value="刷新token，获取登录用户信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷新token，获取登录用户信息" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

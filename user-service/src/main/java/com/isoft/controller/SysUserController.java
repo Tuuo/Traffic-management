@@ -2,11 +2,13 @@ package com.isoft.controller;
 
 
 import com.isoft.config.redis.RedisService;
-import com.isoft.controller.utils.JwtUtils;
-import com.isoft.controller.utils.Result;
+import com.isoft.utils.JwtUtils;
+import com.isoft.utils.MenuTree;
+import com.isoft.utils.Result;
 import com.isoft.entity.Permission;
 import com.isoft.entity.User;
 import com.isoft.entity.UserInfo;
+import com.isoft.vo.RouterVo;
 import com.isoft.vo.TokenVo;
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.core.Authentication;
@@ -20,8 +22,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.awt.event.ItemEvent;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/sysUser")
@@ -54,7 +59,7 @@ public class SysUserController {
         String reToken = "";
         //验证原来的token是否合法
         if (jwtUtils.validateToken(token, details)) {
-        //生成新的token
+            //生成新的token
             reToken = jwtUtils.refreshToken(token);
         }
         //获取本次token的到期时间，交给前端做判断
@@ -75,24 +80,49 @@ public class SysUserController {
 
 
     @GetMapping("/getInfo")
-    public Result getInfo(){
+    public Result getInfo() {
         //从Spring Security上下文中获取用户信息
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         //判断身份信息authentication是否为空
-        if (authentication == null){
+        if (authentication == null) {
             return Result.error().message("用户信息查询失败");
 
         }
         //获取用户信息
-        User user =(User) authentication.getPrincipal();
-       //获取该用户拥有的权限信息
+        User user = (User) authentication.getPrincipal();
+        //获取该用户拥有的权限信息
         List<Permission> permissionList = user.getPermissionList();
         //获取权限编码
         Object[] roles = permissionList.stream().filter(Objects::nonNull).map(Permission::getCode).toArray();
 
         //创建用户信息
-        UserInfo userInfo = new UserInfo(user.getId(),user.getNickName(),user.getAvatar(),null,roles);
+        UserInfo userInfo = new UserInfo(user.getId(), user.getNickName(), user.getAvatar(), null, roles);
         return Result.ok(userInfo).message("用户信息查询成功");
+    }
+
+    /**
+     * 获取登录用户的菜单数据
+     * @return
+     */
+    @GetMapping("/getMenuList")
+    public Result getMenuList() {
+        //从Spring Security上下文中获取用户信息
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        //获取用户信息
+        User user = (User) authentication.getPrincipal();
+        //获取该用户拥有的权限信息
+        List<Permission> permissionList = user.getPermissionList();
+        //筛选当前用户拥有的目录和菜单数据
+        List<Permission> collect = permissionList.stream()
+                //只筛选目录和菜单数据，按钮不需要添加到路由菜单中
+                .filter(item -> item != null && item.getType() != 2) //0-目录 1-菜单  2-按钮
+                .collect(Collectors.toList());
+        //生成路由数据
+        List<RouterVo> routerVoList = MenuTree.makeRouter(collect, 0L);// 0 表示一级菜单
+        //返回数据
+        return Result.ok(routerVoList).message("菜单数据获取成功");
+
+
     }
 }
 

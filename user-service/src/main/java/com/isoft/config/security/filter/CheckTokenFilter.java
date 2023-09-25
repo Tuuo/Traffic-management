@@ -5,7 +5,7 @@ import com.isoft.config.redis.RedisService;
 import com.isoft.config.security.exception.CustomerAuthenticationException;
 import com.isoft.config.security.handler.LoginFailureHandler;
 import com.isoft.config.security.service.CustomerUserDetailsService;
-import com.isoft.controller.utils.JwtUtils;
+import com.isoft.utils.JwtUtils;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
