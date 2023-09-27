@@ -56,7 +56,7 @@ public class DepartmentController {
      * @param department
      * @return
      */
-
+    @PostMapping("/add")
     public Result add(@RequestBody Department department) {
         if (departmentService.save(department)) {
             return Result.ok().message("部门添加成功");

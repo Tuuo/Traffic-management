@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="菜单树">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/DepartmentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/DepartmentQueryVo.java" afterDir="false" />
+    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="人事管理，部门管理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,9 @@
       <workItem from="1695555155793" duration="12445000" />
       <workItem from="1695601252290" duration="8788000" />
       <workItem from="1695623833474" duration="3223000" />
-      <workItem from="1695687541339" duration="8124000" />
+      <workItem from="1695687541339" duration="8782000" />
+      <workItem from="1695727473437" duration="3507000" />
+      <workItem from="1695774002357" duration="6501000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695622885958</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="人事管理，部门管理">
+      <created>1695719415249</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695719415249</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +246,8 @@
     <MESSAGE value="缓存+检查过滤器" />
     <MESSAGE value="刷新token，获取登录用户信息" />
     <MESSAGE value="菜单树" />
-    <option name="LAST_COMMIT_MESSAGE" value="菜单树" />
+    <MESSAGE value="人事管理，部门管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="人事管理，部门管理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
