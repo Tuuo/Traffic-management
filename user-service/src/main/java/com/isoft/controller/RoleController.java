@@ -70,11 +70,23 @@ public class RoleController {
      */
     @DeleteMapping("/delete/{id}")
     public Result delete(@PathVariable Long id){
-        if(roleService.removeById(id)){
+        if(roleService.deleteRoleById(id)){
             return Result.ok().message("角色删除成功");
         }
         return Result.error().message("角色删除失败");
     }
 
+    /**
+     * 检查用户角色是否被使用
+     * @param id
+     * @return
+     */
+    @GetMapping("/check/{id}")
+    public Result check(@PathVariable Long id){
+        if(roleService.hashRoleCount(id)){
+            return Result.exist().message("该角色已分配给其他用户");
+        }
+        return Result.ok();
+    }
 }
 

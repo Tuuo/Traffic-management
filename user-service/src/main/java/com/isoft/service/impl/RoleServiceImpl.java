@@ -53,4 +53,17 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
         }
         return baseMapper.selectPage(page,queryWrapper);
     }
+
+    @Override
+    public boolean hashRoleCount(Long id) {
+        return baseMapper.getRoleCountByRoleId(id)>0;
+    }
+
+    @Override
+    public boolean deleteRoleById(Long id) {
+        //删除角色权限关系
+        baseMapper.deleteRolePermissionByRoleId(id);
+        //删除角色
+        return baseMapper.deleteById(id)>0;
+    }
 }

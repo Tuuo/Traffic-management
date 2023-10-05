@@ -22,4 +22,18 @@ public interface RoleService extends IService<Role> {
      * @return
      */
     IPage<Role> findRoleListByUserId(IPage<Role> page, RoleQueryVo roleQueryVo);
+
+    /**
+     * 检查角色是否被使用
+     * @param id
+     * @return
+     */
+    boolean hashRoleCount(Long id);
+
+    /**
+     * 删除角色
+     * @param id
+     * @return
+     */
+    boolean deleteRoleById(Long id);
 }
