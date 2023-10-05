@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="部门管理，新增">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/PermissionQueryVo.java" afterDir="false" />
+    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="菜单管理">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/RoleQueryVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/PermissionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/PermissionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/RoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,10 @@
       <workItem from="1695774002357" duration="6694000" />
       <workItem from="1695816933200" duration="604000" />
       <workItem from="1695871397512" duration="690000" />
-      <workItem from="1695954328824" duration="8804000" />
+      <workItem from="1695954328824" duration="8876000" />
+      <workItem from="1696432268415" duration="1364000" />
+      <workItem from="1696495635285" duration="1416000" />
+      <workItem from="1696502160838" duration="3314000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695807273502</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="菜单管理">
+      <created>1695994828931</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695994828931</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +269,8 @@
     <MESSAGE value="菜单树" />
     <MESSAGE value="人事管理，部门管理" />
     <MESSAGE value="部门管理，新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="部门管理，新增" />
+    <MESSAGE value="菜单管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="菜单管理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
