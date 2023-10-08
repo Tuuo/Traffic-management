@@ -762,2462 +762,2465 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="228" parent="1" name="mysql">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="229" parent="1" name="performance_schema">
+    <schema id="229" parent="1" name="nacos">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="230" parent="1" name="sky_take_out">
+    <schema id="230" parent="1" name="performance_schema">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="231" parent="1" name="sys">
+    <schema id="231" parent="1" name="sky_take_out">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="232" parent="1" name="test">
+    <schema id="232" parent="1" name="sys">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <user id="233" parent="1" name="root">
+    <schema id="233" parent="1" name="test">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <user id="234" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <user id="234" parent="1" name="mysql.session">
+    <user id="235" parent="1" name="mysql.session">
       <Host>localhost</Host>
     </user>
-    <user id="235" parent="1" name="mysql.sys">
+    <user id="236" parent="1" name="mysql.sys">
       <Host>localhost</Host>
     </user>
-    <table id="236" parent="227" name="approval">
+    <table id="237" parent="227" name="approval">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="237" parent="227" name="attendance_summary">
+    <table id="238" parent="227" name="attendance_summary">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="238" parent="227" name="basic_information">
+    <table id="239" parent="227" name="basic_information">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="239" parent="227" name="callback">
+    <table id="240" parent="227" name="callback">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="240" parent="227" name="contact_person">
+    <table id="241" parent="227" name="contact_person">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="241" parent="227" name="contract_application">
+    <table id="242" parent="227" name="contract_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="242" parent="227" name="contract_backup">
+    <table id="243" parent="227" name="contract_backup">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="243" parent="227" name="contractor">
+    <table id="244" parent="227" name="contractor">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="244" parent="227" name="criminal_responsibility">
+    <table id="245" parent="227" name="criminal_responsibility">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="245" parent="227" name="departure_management">
+    <table id="246" parent="227" name="departure_management">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="246" parent="227" name="door_card">
+    <table id="247" parent="227" name="door_card">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="247" parent="227" name="door_card_configuration">
+    <table id="248" parent="227" name="door_card_configuration">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="248" parent="227" name="electronic_seal_application">
+    <table id="249" parent="227" name="electronic_seal_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="249" parent="227" name="exit_application">
+    <table id="250" parent="227" name="exit_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="250" parent="227" name="external_application">
+    <table id="251" parent="227" name="external_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="251" parent="227" name="external_personnel">
+    <table id="252" parent="227" name="external_personnel">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="252" parent="227" name="external_personnel_contract">
+    <table id="253" parent="227" name="external_personnel_contract">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="253" parent="227" name="family_job">
+    <table id="254" parent="227" name="family_job">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="254" parent="227" name="family_members">
+    <table id="255" parent="227" name="family_members">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="255" parent="227" name="foreign_nation">
+    <table id="256" parent="227" name="foreign_nation">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="256" parent="227" name="handover_management">
+    <table id="257" parent="227" name="handover_management">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="257" parent="227" name="holiday_configuration">
+    <table id="258" parent="227" name="holiday_configuration">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="258" parent="227" name="id_information">
+    <table id="259" parent="227" name="id_information">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="259" parent="227" name="leave_clearance_application">
+    <table id="260" parent="227" name="leave_clearance_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="260" parent="227" name="migrate">
+    <table id="261" parent="227" name="migrate">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="261" parent="227" name="ououtsourcing">
+    <table id="262" parent="227" name="ououtsourcing">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="262" parent="227" name="papers_borrow_return">
+    <table id="263" parent="227" name="papers_borrow_return">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="263" parent="227" name="phone_directory">
+    <table id="264" parent="227" name="phone_directory">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="264" parent="227" name="police_application">
+    <table id="265" parent="227" name="police_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="265" parent="227" name="serve">
+    <table id="266" parent="227" name="serve">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="266" parent="227" name="solatium">
+    <table id="267" parent="227" name="solatium">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="267" parent="227" name="summary_time_setting">
+    <table id="268" parent="227" name="summary_time_setting">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="268" parent="227" name="sys_department">
+    <table id="269" parent="227" name="sys_department">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="269" parent="227" name="sys_permission">
+    <table id="270" parent="227" name="sys_permission">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="270" parent="227" name="sys_role">
+    <table id="271" parent="227" name="sys_role">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="271" parent="227" name="sys_role_permission">
+    <table id="272" parent="227" name="sys_role_permission">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="272" parent="227" name="sys_user">
+    <table id="273" parent="227" name="sys_user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="273" parent="227" name="sys_user_role">
+    <table id="274" parent="227" name="sys_user_role">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="274" parent="227" name="temporary_custodian">
+    <table id="275" parent="227" name="temporary_custodian">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="275" parent="227" name="travel_application">
+    <table id="276" parent="227" name="travel_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="276" parent="227" name="user">
+    <table id="277" parent="227" name="user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="277" parent="227" name="wage_statistics">
+    <table id="278" parent="227" name="wage_statistics">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="278" parent="227" name="wait_approval">
+    <table id="279" parent="227" name="wait_approval">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="279" parent="227" name="work_application">
+    <table id="280" parent="227" name="work_application">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <column id="280" parent="236" name="id">
+    <column id="281" parent="237" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="281" parent="236" name="name">
+    <column id="282" parent="237" name="name">
       <Comment>审批单名称</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="282" parent="236" name="opinion">
+    <column id="283" parent="237" name="opinion">
       <Comment>意见</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="283" parent="236" name="status">
+    <column id="284" parent="237" name="status">
       <Comment>审批状态</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="284" parent="237" name="id">
+    <column id="285" parent="238" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="285" parent="237" name="department">
+    <column id="286" parent="238" name="department">
       <Comment>部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="286" parent="237" name="start_date">
+    <column id="287" parent="238" name="start_date">
       <Comment>开始时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="287" parent="237" name="end_date">
+    <column id="288" parent="238" name="end_date">
       <Comment>结束时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="288" parent="237" name="status">
+    <column id="289" parent="238" name="status">
       <Comment>状态</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <index id="289" parent="237" name="PRIMARY">
+    <index id="290" parent="238" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="290" parent="237" name="PRIMARY">
+    <key id="291" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="291" parent="238" name="id">
+    <column id="292" parent="239" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="292" parent="238" name="name">
+    <column id="293" parent="239" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="293" parent="238" name="key_id">
+    <column id="294" parent="239" name="key_id">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="294" parent="238" name="gender">
+    <column id="295" parent="239" name="gender">
       <Comment>性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="295" parent="238" name="birthday">
+    <column id="296" parent="239" name="birthday">
       <Comment>出生年月</Comment>
       <DataType>varchar(11)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="296" parent="238" name="class">
+    <column id="297" parent="239" name="class">
       <Comment>等级</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="297" parent="238" name="classify">
+    <column id="298" parent="239" name="classify">
       <Comment>人员分类</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="298" parent="238" name="staffing">
+    <column id="299" parent="239" name="staffing">
       <Comment>正式编制</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="299" parent="238" name="department_name">
+    <column id="300" parent="239" name="department_name">
       <Comment>部门名称</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="300" parent="238" name="education">
+    <column id="301" parent="239" name="education">
       <Comment>文化程度</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="301" parent="238" name="job">
+    <column id="302" parent="239" name="job">
       <Comment>主职务</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="302" parent="238" name="birthplace">
+    <column id="303" parent="239" name="birthplace">
       <Comment>籍贯</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="303" parent="238" name="nationality">
+    <column id="304" parent="239" name="nationality">
       <Comment>民族</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="304" parent="238" name="join_party_date">
+    <column id="305" parent="239" name="join_party_date">
       <Comment>入党日期</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="305" parent="238" name="entry_date">
+    <column id="306" parent="239" name="entry_date">
       <Comment>入职日期</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="306" parent="238" name="politics_status">
+    <column id="307" parent="239" name="politics_status">
       <Comment>政治面貌</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="307" parent="238" name="marriage">
+    <column id="308" parent="239" name="marriage">
       <Comment>婚姻</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="308" parent="239" name="id">
+    <column id="309" parent="240" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="309" parent="239" name="name">
+    <column id="310" parent="240" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="310" parent="239" name="callback_information_item">
+    <column id="311" parent="240" name="callback_information_item">
       <Comment>回访信息项</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="311" parent="239" name="personnel_situation">
+    <column id="312" parent="240" name="personnel_situation">
       <Comment>外放接待人员，陪同人员情况</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="312" parent="239" name="study_situation">
+    <column id="313" parent="240" name="study_situation">
       <Comment>与外方交流学习的主要情况</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="313" parent="239" name="communication_situation">
+    <column id="314" parent="240" name="communication_situation">
       <Comment>与当地华人华侨接触、交往情况</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>6</Position>
     </column>
-    <index id="314" parent="239" name="PRIMARY">
+    <index id="315" parent="240" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="315" parent="239" name="PRIMARY">
+    <key id="316" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="316" parent="240" name="id">
+    <column id="317" parent="241" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="317" parent="240" name="linkman">
+    <column id="318" parent="241" name="linkman">
       <Comment>联系人</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="318" parent="240" name="link_phone">
+    <column id="319" parent="241" name="link_phone">
       <Comment>联系电话</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="319" parent="240" name="relation">
+    <column id="320" parent="241" name="relation">
       <Comment>与本人关系</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>4</Position>
     </column>
-    <index id="320" parent="240" name="PRIMARY">
+    <index id="321" parent="241" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="321" parent="240" name="PRIMARY">
+    <key id="322" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="322" parent="241" name="id">
+    <column id="323" parent="242" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="323" parent="241" name="name">
+    <column id="324" parent="242" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="324" parent="241" name="gender">
+    <column id="325" parent="242" name="gender">
       <Comment>性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="325" parent="241" name="marriage">
+    <column id="326" parent="242" name="marriage">
       <Comment>婚否</Comment>
       <DataType>varchar(3)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="326" parent="241" name="start_date">
+    <column id="327" parent="242" name="start_date">
       <Comment>开始节假日</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="327" parent="241" name="end_date">
+    <column id="328" parent="242" name="end_date">
       <Comment>结束节假日</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="328" parent="241" name="application_type">
+    <column id="329" parent="242" name="application_type">
       <Comment>请假类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="329" parent="241" name="place">
+    <column id="330" parent="242" name="place">
       <Comment>前往地点</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="330" parent="241" name="reasons">
+    <column id="331" parent="242" name="reasons">
       <Comment>事由</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="331" parent="241" name="surplus_days">
+    <column id="332" parent="242" name="surplus_days">
       <Comment>公休剩余天数</Comment>
       <DataType>varchar(3)|0s</DataType>
       <Position>10</Position>
     </column>
-    <index id="332" parent="241" name="PRIMARY">
+    <index id="333" parent="242" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="333" parent="241" name="PRIMARY">
+    <key id="334" parent="242" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="334" parent="242" name="id">
+    <column id="335" parent="243" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="335" parent="242" name="upload_files">
+    <column id="336" parent="243" name="upload_files">
       <Comment>上传文件</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <index id="336" parent="242" name="PRIMARY">
+    <index id="337" parent="243" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="337" parent="242" name="PRIMARY">
+    <key id="338" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="338" parent="243" name="id">
+    <column id="339" parent="244" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="339" parent="243" name="name">
+    <column id="340" parent="244" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="340" parent="243" name="gender">
+    <column id="341" parent="244" name="gender">
       <Comment>性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="341" parent="243" name="birthday">
+    <column id="342" parent="244" name="birthday">
       <Comment>出生年月</Comment>
       <DataType>varchar(11)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="342" parent="243" name="class">
+    <column id="343" parent="244" name="class">
       <Comment>等级</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="343" parent="243" name="classify">
+    <column id="344" parent="244" name="classify">
       <Comment>人员分类</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="344" parent="243" name="degree_education">
+    <column id="345" parent="244" name="degree_education">
       <Comment>文化程度</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="345" parent="243" name="major_job">
+    <column id="346" parent="244" name="major_job">
       <Comment>主职务</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="346" parent="243" name="honor">
+    <column id="347" parent="244" name="honor">
       <Comment>头衔</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="347" parent="243" name="birthplace">
+    <column id="348" parent="244" name="birthplace">
       <Comment>籍贯</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="348" parent="243" name="nationality">
+    <column id="349" parent="244" name="nationality">
       <Comment>民族</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="349" parent="243" name="join_party_date">
+    <column id="350" parent="244" name="join_party_date">
       <Comment>入党日期</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="350" parent="243" name="politics_status">
+    <column id="351" parent="244" name="politics_status">
       <Comment>政治面貌</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="351" parent="243" name="education_background">
+    <column id="352" parent="244" name="education_background">
       <Comment>全日制学历</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="352" parent="243" name="degree">
+    <column id="353" parent="244" name="degree">
       <Comment>全日制学位</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="353" parent="243" name="school_specialty">
+    <column id="354" parent="244" name="school_specialty">
       <Comment>全日制毕业院校专业</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="354" parent="243" name="now_education_background">
+    <column id="355" parent="244" name="now_education_background">
       <Comment>在职教育学历</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="355" parent="243" name="now_degree">
+    <column id="356" parent="244" name="now_degree">
       <Comment>在职教育学位</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="356" parent="243" name="now_school_specialty">
+    <column id="357" parent="244" name="now_school_specialty">
       <Comment>在职教育毕业院校专业</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>19</Position>
     </column>
-    <column id="357" parent="243" name="key_card">
+    <column id="358" parent="244" name="key_card">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>20</Position>
     </column>
-    <column id="358" parent="243" name="phone_number">
+    <column id="359" parent="244" name="phone_number">
       <Comment>手机号</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>21</Position>
     </column>
-    <column id="359" parent="243" name="spouse_company">
+    <column id="360" parent="244" name="spouse_company">
       <Comment>配偶单位</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="360" parent="243" name="spouse_job">
+    <column id="361" parent="244" name="spouse_job">
       <Comment>配偶职务</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>23</Position>
     </column>
-    <column id="361" parent="243" name="parent_word">
+    <column id="362" parent="244" name="parent_word">
       <Comment>父母单位</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>24</Position>
     </column>
-    <column id="362" parent="243" name="parent_job">
+    <column id="363" parent="244" name="parent_job">
       <Comment>父母职务</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>25</Position>
     </column>
-    <column id="363" parent="243" name="child_company">
+    <column id="364" parent="244" name="child_company">
       <Comment>子女工作单位</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>26</Position>
     </column>
-    <column id="364" parent="243" name="child_job">
+    <column id="365" parent="244" name="child_job">
       <Comment>子女职务</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>27</Position>
     </column>
-    <column id="365" parent="243" name="staffing">
+    <column id="366" parent="244" name="staffing">
       <Comment>正式编制</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>28</Position>
     </column>
-    <column id="366" parent="243" name="parent_name">
+    <column id="367" parent="244" name="parent_name">
       <Comment>父母姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>29</Position>
     </column>
-    <column id="367" parent="243" name="child_name">
+    <column id="368" parent="244" name="child_name">
       <Comment>子女姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>30</Position>
     </column>
-    <column id="368" parent="243" name="this_public_holiday">
+    <column id="369" parent="244" name="this_public_holiday">
       <Comment>当年公休</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>31</Position>
     </column>
-    <column id="369" parent="243" name="surplus_public_holiday">
+    <column id="370" parent="244" name="surplus_public_holiday">
       <Comment>剩余公休</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>32</Position>
     </column>
-    <index id="370" parent="243" name="PRIMARY">
+    <index id="371" parent="244" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="371" parent="243" name="PRIMARY">
+    <key id="372" parent="244" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="372" parent="244" name="id">
+    <column id="373" parent="245" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="373" parent="244" name="name">
+    <column id="374" parent="245" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="374" parent="244" name="relation">
+    <column id="375" parent="245" name="relation">
       <Comment>与本人关系</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="375" parent="244" name="key_card">
+    <column id="376" parent="245" name="key_card">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="376" parent="244" name="inquiry_date">
+    <column id="377" parent="245" name="inquiry_date">
       <Comment>被追究日期</Comment>
       <DataType>varchar(11)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="377" parent="244" name="inquiry_reason">
+    <column id="378" parent="245" name="inquiry_reason">
       <Comment>被追究原因</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="378" parent="244" name="processing_phase">
+    <column id="379" parent="245" name="processing_phase">
       <Comment>处理阶段</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="379" parent="244" name="processing_result">
+    <column id="380" parent="245" name="processing_result">
       <Comment>处理结果</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="380" parent="244" name="comment">
+    <column id="381" parent="245" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="381" parent="245" name="id">
+    <column id="382" parent="246" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="382" parent="245" name="department">
+    <column id="383" parent="246" name="department">
       <Comment>部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="383" parent="245" name="personnel">
+    <column id="384" parent="246" name="personnel">
       <Comment>人员</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="384" parent="245" name="key_card">
+    <column id="385" parent="246" name="key_card">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="385" parent="245" name="specialty">
+    <column id="386" parent="246" name="specialty">
       <Comment>专业</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="386" parent="245" name="gender">
+    <column id="387" parent="246" name="gender">
       <Comment>性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="387" parent="245" name="enrollment_date">
+    <column id="388" parent="246" name="enrollment_date">
       <Comment>入职日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="388" parent="245" name="left_date">
+    <column id="389" parent="246" name="left_date">
       <Comment>离职日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>8</Position>
     </column>
-    <index id="389" parent="245" name="PRIMARY">
+    <index id="390" parent="246" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="390" parent="245" name="PRIMARY">
+    <key id="391" parent="246" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="391" parent="246" name="id">
+    <column id="392" parent="247" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="392" parent="246" name="card_number">
+    <column id="393" parent="247" name="card_number">
       <Comment>门卡卡号</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>2</Position>
     </column>
-    <index id="393" parent="246" name="PRIMARY">
+    <index id="394" parent="247" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="394" parent="246" name="PRIMARY">
+    <key id="395" parent="247" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="395" parent="247" name="id">
+    <column id="396" parent="248" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="396" parent="247" name="door_card">
+    <column id="397" parent="248" name="door_card">
       <Comment>门禁卡号</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="397" parent="247" name="is_door_connect">
+    <column id="398" parent="248" name="is_door_connect">
       <Comment>门禁是否连接</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="398" parent="247" name="attendance_card">
+    <column id="399" parent="248" name="attendance_card">
       <Comment>出勤机卡号</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="399" parent="247" name="is_attendance_connect">
+    <column id="400" parent="248" name="is_attendance_connect">
       <Comment>出勤机是否连接</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="400" parent="247" name="special_card">
+    <column id="401" parent="248" name="special_card">
       <Comment>特殊通道卡号</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="401" parent="247" name="is_staff_passage">
+    <column id="402" parent="248" name="is_staff_passage">
       <Comment>员工通道是否连接</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="402" parent="247" name="first_card_date">
+    <column id="403" parent="248" name="first_card_date">
       <Comment>首次绑卡时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>8</Position>
     </column>
-    <index id="403" parent="247" name="PRIMARY">
+    <index id="404" parent="248" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="404" parent="247" name="PRIMARY">
+    <key id="405" parent="248" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="405" parent="248" name="id">
+    <column id="406" parent="249" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="406" parent="248" name="seal_type">
+    <column id="407" parent="249" name="seal_type">
       <Comment>签章类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="407" parent="248" name="application_type">
+    <column id="408" parent="249" name="application_type">
       <Comment>申请类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="408" parent="248" name="application_date">
+    <column id="409" parent="249" name="application_date">
       <Comment>申请日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="409" parent="248" name="status">
+    <column id="410" parent="249" name="status">
       <Comment>审批状态</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="410" parent="248" name="application_department">
+    <column id="411" parent="249" name="application_department">
       <Comment>申请部门</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="411" parent="248" name="applicat">
+    <column id="412" parent="249" name="applicat">
       <Comment>申请人</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="412" parent="248" name="PRIMARY">
+    <index id="413" parent="249" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="413" parent="248" name="PRIMARY">
+    <key id="414" parent="249" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="414" parent="249" name="id">
+    <column id="415" parent="250" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="415" parent="249" name="name">
+    <column id="416" parent="250" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="416" parent="249" name="personnel_type">
+    <column id="417" parent="250" name="personnel_type">
       <Comment>人员类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="417" parent="249" name="start_date">
+    <column id="418" parent="250" name="start_date">
       <Comment>开始日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="418" parent="249" name="end_date">
+    <column id="419" parent="250" name="end_date">
       <Comment>结束日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="419" parent="249" name="reason">
+    <column id="420" parent="250" name="reason">
       <Comment>原因</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="420" parent="249" name="is_check_commitment">
+    <column id="421" parent="250" name="is_check_commitment">
       <Comment>是否查看承诺书</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="421" parent="249" name="gender">
+    <column id="422" parent="250" name="gender">
       <Comment>性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="422" parent="249" name="birthday">
+    <column id="423" parent="250" name="birthday">
       <Comment>出生年月</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="423" parent="249" name="politics_status">
+    <column id="424" parent="250" name="politics_status">
       <Comment>政治面貌</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="424" parent="249" name="company">
+    <column id="425" parent="250" name="company">
       <Comment>工作单位</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="425" parent="249" name="go_abroad_type">
+    <column id="426" parent="250" name="go_abroad_type">
       <Comment>出国(境)类型</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="426" parent="249" name="job">
+    <column id="427" parent="250" name="job">
       <Comment>职务（职称）</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="427" parent="249" name="degree_secrecy">
+    <column id="428" parent="250" name="degree_secrecy">
       <Comment>涉密程度</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="428" parent="249" name="passport_number">
+    <column id="429" parent="250" name="passport_number">
       <Comment>护照号码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="429" parent="249" name="destination_abroad">
+    <column id="430" parent="250" name="destination_abroad">
       <Comment>出国（境）目的地</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="430" parent="249" name="exit_approval_number">
+    <column id="431" parent="250" name="exit_approval_number">
       <Comment>出国（境）审批编号</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="431" parent="249" name="group_unit">
+    <column id="432" parent="250" name="group_unit">
       <Comment>组团单位</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="432" parent="249" name="travel_country">
+    <column id="433" parent="250" name="travel_country">
       <Comment>前往国家（地区）</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>19</Position>
     </column>
-    <column id="433" parent="249" name="stop_date">
+    <column id="434" parent="250" name="stop_date">
       <Comment>停留日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>20</Position>
     </column>
-    <column id="434" parent="249" name="group_members">
+    <column id="435" parent="250" name="group_members">
       <Comment>出国（境）情况，团组其他人员</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>21</Position>
     </column>
-    <column id="435" parent="249" name="overseas_travel_date">
+    <column id="436" parent="250" name="overseas_travel_date">
       <Comment>国（境）外行程--日期</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="436" parent="249" name="overseas_travel_place">
+    <column id="437" parent="250" name="overseas_travel_place">
       <Comment>国（境）外行程--地点</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>23</Position>
     </column>
-    <column id="437" parent="249" name="overseas_travel_things">
+    <column id="438" parent="250" name="overseas_travel_things">
       <Comment>国（境）外行程--事项</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>24</Position>
     </column>
-    <column id="438" parent="249" name="attachment">
+    <column id="439" parent="250" name="attachment">
       <Comment>附件</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>25</Position>
     </column>
-    <index id="439" parent="249" name="PRIMARY">
+    <index id="440" parent="250" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="440" parent="249" name="PRIMARY">
+    <key id="441" parent="250" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="441" parent="250" name="id">
+    <column id="442" parent="251" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="442" parent="250" name="name">
+    <column id="443" parent="251" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="443" parent="250" name="gender">
+    <column id="444" parent="251" name="gender">
       <Comment>性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="444" parent="250" name="department">
+    <column id="445" parent="251" name="department">
       <Comment>部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="445" parent="250" name="reasons">
+    <column id="446" parent="251" name="reasons">
       <Comment>事由</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="446" parent="250" name="days">
+    <column id="447" parent="251" name="days">
       <Comment>天数</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="447" parent="250" name="start_date">
+    <column id="448" parent="251" name="start_date">
       <Comment>请假开始时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="448" parent="250" name="end_date">
+    <column id="449" parent="251" name="end_date">
       <Comment>请假结束时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="449" parent="250" name="application_type">
+    <column id="450" parent="251" name="application_type">
       <Comment>请假类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="450" parent="250" name="approver">
+    <column id="451" parent="251" name="approver">
       <Comment>审批人</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>10</Position>
     </column>
-    <index id="451" parent="250" name="PRIMARY">
+    <index id="452" parent="251" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="452" parent="250" name="PRIMARY">
+    <key id="453" parent="251" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="453" parent="251" name="id">
+    <column id="454" parent="252" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="454" parent="251" name="name">
+    <column id="455" parent="252" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="455" parent="251" name="school">
+    <column id="456" parent="252" name="school">
       <Comment>学校</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="456" parent="251" name="specialty">
+    <column id="457" parent="252" name="specialty">
       <Comment>专业</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="457" parent="251" name="study_year">
+    <column id="458" parent="252" name="study_year">
       <Comment>学年</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="458" parent="251" name="start_date">
+    <column id="459" parent="252" name="start_date">
       <Comment>外聘开始日期</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="459" parent="251" name="end_date">
+    <column id="460" parent="252" name="end_date">
       <Comment>外聘结束日期</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="460" parent="251" name="source">
+    <column id="461" parent="252" name="source">
       <Comment>来源</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="461" parent="251" name="introducer">
+    <column id="462" parent="252" name="introducer">
       <Comment>介绍人姓名</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="462" parent="251" name="department">
+    <column id="463" parent="252" name="department">
       <Comment>部门</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="463" parent="251" name="key_card">
+    <column id="464" parent="252" name="key_card">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="464" parent="251" name="upload_letter">
+    <column id="465" parent="252" name="upload_letter">
       <Comment>上传介绍信</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="465" parent="251" name="personnel_status">
+    <column id="466" parent="252" name="personnel_status">
       <Comment>外聘状态</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="466" parent="251" name="address">
+    <column id="467" parent="252" name="address">
       <Comment>家庭地址</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="467" parent="251" name="degree_education">
+    <column id="468" parent="252" name="degree_education">
       <Comment>文化程度</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="468" parent="251" name="gift_date">
+    <column id="469" parent="252" name="gift_date">
       <Comment>出礼品期</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="469" parent="251" name="birthplace">
+    <column id="470" parent="252" name="birthplace">
       <Comment>籍贯</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="470" parent="251" name="school_linkman">
+    <column id="471" parent="252" name="school_linkman">
       <Comment>学校联系人</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="471" parent="251" name="linkman_phone">
+    <column id="472" parent="252" name="linkman_phone">
       <Comment>学校联系人电话</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>19</Position>
     </column>
-    <column id="472" parent="251" name="linkman_job">
+    <column id="473" parent="252" name="linkman_job">
       <Comment>学校联系人职务</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>20</Position>
     </column>
-    <column id="473" parent="251" name="profile_photo">
+    <column id="474" parent="252" name="profile_photo">
       <Comment>头像</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>21</Position>
     </column>
-    <column id="474" parent="251" name="health_code">
+    <column id="475" parent="252" name="health_code">
       <Comment>健康码</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="475" parent="251" name="email">
+    <column id="476" parent="252" name="email">
       <Comment>邮箱</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>23</Position>
     </column>
-    <index id="476" parent="251" name="PRIMARY">
+    <index id="477" parent="252" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="477" parent="251" name="PRIMARY">
+    <key id="478" parent="252" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="478" parent="252" name="id">
+    <column id="479" parent="253" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="479" parent="252" name="contract_id">
+    <column id="480" parent="253" name="contract_id">
       <Comment>合同编号</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="480" parent="252" name="key_card">
+    <column id="481" parent="253" name="key_card">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="481" parent="252" name="phone">
+    <column id="482" parent="253" name="phone">
       <Comment>联系电话</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="482" parent="252" name="postcode">
+    <column id="483" parent="253" name="postcode">
       <Comment>邮编</Comment>
       <DataType>varchar(8)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="483" parent="252" name="new_or_renewed">
+    <column id="484" parent="253" name="new_or_renewed">
       <Comment>新续签</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="484" parent="252" name="resident_address">
+    <column id="485" parent="253" name="resident_address">
       <Comment>常驻居住地址</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="485" parent="252" name="domicile_place">
+    <column id="486" parent="253" name="domicile_place">
       <Comment>户籍所在地</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="486" parent="252" name="postal_address">
+    <column id="487" parent="253" name="postal_address">
       <Comment>通讯地址</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="487" parent="252" name="station">
+    <column id="488" parent="253" name="station">
       <Comment>岗位</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="488" parent="252" name="contract_type">
+    <column id="489" parent="253" name="contract_type">
       <Comment>合同类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="489" parent="252" name="start_date">
+    <column id="490" parent="253" name="start_date">
       <Comment>合同开始日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="490" parent="252" name="end_date">
+    <column id="491" parent="253" name="end_date">
       <Comment>合同结束日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="491" parent="252" name="probation_period">
+    <column id="492" parent="253" name="probation_period">
       <Comment>试用期限</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>14</Position>
     </column>
-    <index id="492" parent="252" name="PRIMARY">
+    <index id="493" parent="253" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="493" parent="252" name="PRIMARY">
+    <key id="494" parent="253" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="494" parent="253" name="id">
+    <column id="495" parent="254" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="495" parent="253" name="name">
+    <column id="496" parent="254" name="name">
       <Comment>报告事项（亲属姓名）</Comment>
       <DataType>varchar(6)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="496" parent="253" name="relation">
+    <column id="497" parent="254" name="relation">
       <Comment>与本人关系</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="497" parent="253" name="key_card">
+    <column id="498" parent="254" name="key_card">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="498" parent="253" name="job">
+    <column id="499" parent="254" name="job">
       <Comment>职务</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="499" parent="253" name="company_name">
+    <column id="500" parent="254" name="company_name">
       <Comment>单位名称</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="500" parent="253" name="is_partner">
+    <column id="501" parent="254" name="is_partner">
       <Comment>是否为单位合伙人或设立人</Comment>
       <DataType>varchar(16)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="501" parent="253" name="is_local_practice">
+    <column id="502" parent="254" name="is_local_practice">
       <Comment>是否在本单位辖区内执业</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="502" parent="253" name="prefecture">
+    <column id="503" parent="254" name="prefecture">
       <Comment>辖区</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="503" parent="253" name="scope_practice">
+    <column id="504" parent="254" name="scope_practice">
       <Comment>执业范围</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="504" parent="253" name="is_apply_challenge">
+    <column id="505" parent="254" name="is_apply_challenge">
       <Comment>是否提出回避申请</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="505" parent="253" name="challenge_status">
+    <column id="506" parent="254" name="challenge_status">
       <Comment>回避申请的具体情形</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="506" parent="253" name="comment">
+    <column id="507" parent="254" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="507" parent="254" name="id">
+    <column id="508" parent="255" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="508" parent="254" name="name">
+    <column id="509" parent="255" name="name">
       <Comment>亲属姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="509" parent="254" name="relation">
+    <column id="510" parent="255" name="relation">
       <Comment>与本人关系</Comment>
       <DataType>varchar(4)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="510" parent="254" name="is_life_child">
+    <column id="511" parent="255" name="is_life_child">
       <Comment>是否与子女共同生活</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="511" parent="254" name="marriage_status">
+    <column id="512" parent="255" name="marriage_status">
       <Comment>婚姻状况</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="512" parent="254" name="marriage_change">
+    <column id="513" parent="255" name="marriage_change">
       <Comment>婚姻变化情况</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="513" parent="254" name="work">
+    <column id="514" parent="255" name="work">
       <Comment>工作（学习）单位</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="514" parent="254" name="now_job">
+    <column id="515" parent="255" name="now_job">
       <Comment>现任职务</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="515" parent="254" name="company_type">
+    <column id="516" parent="255" name="company_type">
       <Comment>单位性质</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="516" parent="254" name="is_advanced_job">
+    <column id="517" parent="255" name="is_advanced_job">
       <Comment>是否担任高级职务</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="517" parent="254" name="is_local_foreign">
+    <column id="518" parent="255" name="is_local_foreign">
       <Comment>是否在国（境）外</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="518" parent="254" name="card_name">
+    <column id="519" parent="255" name="card_name">
       <Comment>证件名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="519" parent="254" name="card_id">
+    <column id="520" parent="255" name="card_id">
       <Comment>证件号</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="520" parent="255" name="id">
+    <column id="521" parent="256" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="521" parent="255" name="name">
+    <column id="522" parent="256" name="name">
       <Comment>亲属姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="522" parent="255" name="relation">
+    <column id="523" parent="256" name="relation">
       <Comment>与本人关系</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="523" parent="255" name="key_id">
+    <column id="524" parent="256" name="key_id">
       <Comment>身份证号</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="524" parent="255" name="nation">
+    <column id="525" parent="256" name="nation">
       <Comment>所在国家（地区）</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="525" parent="255" name="work_city">
+    <column id="526" parent="256" name="work_city">
       <Comment>工作生活城市</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="526" parent="255" name="work">
+    <column id="527" parent="256" name="work">
       <Comment>工作（学习）</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="527" parent="255" name="job">
+    <column id="528" parent="256" name="job">
       <Comment>职务</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="528" parent="255" name="start_date">
+    <column id="529" parent="256" name="start_date">
       <Comment>起始日期</Comment>
       <DataType>varchar(11)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="529" parent="255" name="end_date">
+    <column id="530" parent="256" name="end_date">
       <Comment>返回日期</Comment>
       <DataType>varchar(11)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="530" parent="255" name="comment">
+    <column id="531" parent="256" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="531" parent="256" name="id">
+    <column id="532" parent="257" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="532" parent="256" name="name">
+    <column id="533" parent="257" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="533" parent="256" name="department">
+    <column id="534" parent="257" name="department">
       <Comment>所在部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="534" parent="256" name="job">
+    <column id="535" parent="257" name="job">
       <Comment>职务</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="535" parent="256" name="personnel_category">
+    <column id="536" parent="257" name="personnel_category">
       <Comment>人员类别</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="536" parent="256" name="leave_category">
+    <column id="537" parent="257" name="leave_category">
       <Comment>离岗类别</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="537" parent="256" name="status">
+    <column id="538" parent="257" name="status">
       <Comment>交接状态</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="538" parent="256" name="PRIMARY">
+    <index id="539" parent="257" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="539" parent="256" name="PRIMARY">
+    <key id="540" parent="257" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="540" parent="257" name="id">
+    <column id="541" parent="258" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="541" parent="257" name="holiday_name">
+    <column id="542" parent="258" name="holiday_name">
       <Comment>节假日名称</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="542" parent="257" name="date">
+    <column id="543" parent="258" name="date">
       <Comment>日期</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="543" parent="257" name="word_status">
+    <column id="544" parent="258" name="word_status">
       <Comment>工作状态</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="544" parent="257" name="is_holiday">
+    <column id="545" parent="258" name="is_holiday">
       <Comment>是否节假日</Comment>
       <DataType>varchar(2)|0s</DataType>
       <Position>5</Position>
     </column>
-    <index id="545" parent="257" name="PRIMARY">
+    <index id="546" parent="258" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="546" parent="257" name="PRIMARY">
+    <key id="547" parent="258" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="547" parent="258" name="id">
+    <column id="548" parent="259" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="548" parent="258" name="creat_date">
+    <column id="549" parent="259" name="creat_date">
       <Comment>创建日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="549" parent="258" name="comment">
+    <column id="550" parent="259" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="550" parent="258" name="certificate_validity_date">
+    <column id="551" parent="259" name="certificate_validity_date">
       <Comment>证件有效日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="551" parent="258" name="certificate_type">
+    <column id="552" parent="259" name="certificate_type">
       <Comment>证件类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="552" parent="258" name="photo">
+    <column id="553" parent="259" name="photo">
       <Comment>照片</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="553" parent="258" name="certificate_number">
+    <column id="554" parent="259" name="certificate_number">
       <Comment>证件编号</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="554" parent="258" name="number_round">
+    <column id="555" parent="259" name="number_round">
       <Comment>往返次数</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="555" parent="258" name="certificate_date">
+    <column id="556" parent="259" name="certificate_date">
       <Comment>证件时效</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="556" parent="258" name="custodian_organization">
+    <column id="557" parent="259" name="custodian_organization">
       <Comment>保管机构</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="557" parent="259" name="id">
+    <column id="558" parent="260" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="558" parent="259" name="name">
+    <column id="559" parent="260" name="name">
       <Comment>申请人</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="559" parent="259" name="department">
+    <column id="560" parent="260" name="department">
       <Comment>申请部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="560" parent="259" name="surplus_days">
+    <column id="561" parent="260" name="surplus_days">
       <Comment>公休剩余天数</Comment>
       <DataType>varchar(3)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="561" parent="259" name="note_leave">
+    <column id="562" parent="260" name="note_leave">
       <Comment>请假单</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="562" parent="259" name="start_date">
+    <column id="563" parent="260" name="start_date">
       <Comment>销假开始时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="563" parent="259" name="end_date">
+    <column id="564" parent="260" name="end_date">
       <Comment>销假结束时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="564" parent="259" name="PRIMARY">
+    <index id="565" parent="260" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="565" parent="259" name="PRIMARY">
+    <key id="566" parent="260" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="566" parent="260" name="id">
+    <column id="567" parent="261" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="567" parent="260" name="name">
+    <column id="568" parent="261" name="name">
       <Comment>亲属姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="568" parent="260" name="relation">
+    <column id="569" parent="261" name="relation">
       <Comment>与本人关系</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="569" parent="260" name="migrate_nation">
+    <column id="570" parent="261" name="migrate_nation">
       <Comment>移居国家（地区）</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="570" parent="260" name="live_city">
+    <column id="571" parent="261" name="live_city">
       <Comment>现住城市</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="571" parent="260" name="migrate_card">
+    <column id="572" parent="261" name="migrate_card">
       <Comment>移居证件号码</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="572" parent="260" name="migrate_type">
+    <column id="573" parent="261" name="migrate_type">
       <Comment>移居类别</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="573" parent="260" name="migrate_date">
+    <column id="574" parent="261" name="migrate_date">
       <Comment>移居日期</Comment>
       <DataType>varchar(11)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="574" parent="260" name="comment">
+    <column id="575" parent="261" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="575" parent="261" name="id">
+    <column id="576" parent="262" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="576" parent="261" name="content">
+    <column id="577" parent="262" name="content">
       <Comment>发布的内容</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="577" parent="262" name="id">
+    <column id="578" parent="263" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="578" parent="262" name="collection_date">
+    <column id="579" parent="263" name="collection_date">
       <Comment>领取日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="579" parent="262" name="collection_name">
+    <column id="580" parent="263" name="collection_name">
       <Comment>领取人</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="580" parent="262" name="comment">
+    <column id="581" parent="263" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="581" parent="262" name="return_date">
+    <column id="582" parent="263" name="return_date">
       <Comment>预计交回日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <index id="582" parent="262" name="PRIMARY">
+    <index id="583" parent="263" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="583" parent="262" name="PRIMARY">
+    <key id="584" parent="263" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="584" parent="263" name="id">
+    <column id="585" parent="264" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="585" parent="263" name="name">
+    <column id="586" parent="264" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="586" parent="263" name="department_name">
+    <column id="587" parent="264" name="department_name">
       <Comment>部门名称</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="587" parent="263" name="job">
+    <column id="588" parent="264" name="job">
       <Comment>职务</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="588" parent="263" name="house_number">
+    <column id="589" parent="264" name="house_number">
       <Comment>门牌号</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="589" parent="263" name="phone_number">
+    <column id="590" parent="264" name="phone_number">
       <Comment>手机号</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="590" parent="263" name="telephone">
+    <column id="591" parent="264" name="telephone">
       <Comment>座机</Comment>
       <DataType>varchar(13)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="591" parent="263" name="office">
+    <column id="592" parent="264" name="office">
       <Comment>办公室</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="592" parent="263" name="email">
+    <column id="593" parent="264" name="email">
       <Comment>邮箱</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="593" parent="264" name="id">
+    <column id="594" parent="265" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="594" parent="264" name="police_date">
+    <column id="595" parent="265" name="police_date">
       <Comment>出警日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="595" parent="264" name="primary_time">
+    <column id="596" parent="265" name="primary_time">
       <Comment>出警时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="596" parent="264" name="department">
+    <column id="597" parent="265" name="department">
       <Comment>部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="597" parent="264" name="reasons">
+    <column id="598" parent="265" name="reasons">
       <Comment>出警事由</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="598" parent="264" name="place">
+    <column id="599" parent="265" name="place">
       <Comment>出警地点</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <index id="599" parent="264" name="PRIMARY">
+    <index id="600" parent="265" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="600" parent="264" name="PRIMARY">
+    <key id="601" parent="265" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="601" parent="265" name="id">
+    <column id="602" parent="266" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="602" parent="265" name="serve_type">
+    <column id="603" parent="266" name="serve_type">
       <Comment>招待类型</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="603" parent="265" name="type_standard">
+    <column id="604" parent="266" name="type_standard">
       <Comment>类型标准</Comment>
       <DataType>varchar(4)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="604" parent="266" name="id">
+    <column id="605" parent="267" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="605" parent="266" name="opinion">
+    <column id="606" parent="267" name="opinion">
       <Comment>意见</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="606" parent="266" name="idiograph">
+    <column id="607" parent="267" name="idiograph">
       <Comment>个人签名</Comment>
       <DataType>varchar(4)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="607" parent="267" name="id">
+    <column id="608" parent="268" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="608" parent="267" name="start_date">
+    <column id="609" parent="268" name="start_date">
       <Comment>开始时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="609" parent="267" name="submission_deadline">
+    <column id="610" parent="268" name="submission_deadline">
       <Comment>上报截止时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="610" parent="267" name="title">
+    <column id="611" parent="268" name="title">
       <Comment>标题</Comment>
       <DataType>varchar(30)|0s</DataType>
       <Position>4</Position>
     </column>
-    <index id="611" parent="267" name="PRIMARY">
+    <index id="612" parent="268" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="612" parent="267" name="PRIMARY">
+    <key id="613" parent="268" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="613" parent="268" name="id">
+    <column id="614" parent="269" name="id">
       <AutoIncrement>7</AutoIncrement>
       <Comment>部门编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="614" parent="268" name="department_name">
+    <column id="615" parent="269" name="department_name">
       <Comment>部门名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="615" parent="268" name="phone">
+    <column id="616" parent="269" name="phone">
       <Comment>部门电话</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="616" parent="268" name="address">
+    <column id="617" parent="269" name="address">
       <Comment>部门地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="617" parent="268" name="pid">
+    <column id="618" parent="269" name="pid">
       <Comment>所属部门编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="618" parent="268" name="parent_name">
+    <column id="619" parent="269" name="parent_name">
       <Comment>所属部门名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="619" parent="268" name="order_num">
+    <column id="620" parent="269" name="order_num">
       <Comment>排序</Comment>
       <DataType>int(11)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="620" parent="268" name="is_delete">
+    <column id="621" parent="269" name="is_delete">
       <Comment>是否删除(0-未删除 1-已删除)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>8</Position>
     </column>
-    <index id="621" parent="268" name="PRIMARY">
+    <index id="622" parent="269" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="622" parent="268" name="PRIMARY">
+    <key id="623" parent="269" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="623" parent="269" name="id">
+    <column id="624" parent="270" name="id">
       <AutoIncrement>30</AutoIncrement>
       <Comment>权限编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="624" parent="269" name="label">
+    <column id="625" parent="270" name="label">
       <Comment>权限名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="625" parent="269" name="parent_id">
+    <column id="626" parent="270" name="parent_id">
       <Comment>父权限ID</Comment>
       <DataType>bigint(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="626" parent="269" name="parent_name">
+    <column id="627" parent="270" name="parent_name">
       <Comment>父权限名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="627" parent="269" name="code">
+    <column id="628" parent="270" name="code">
       <Comment>授权标识符</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="628" parent="269" name="path">
+    <column id="629" parent="270" name="path">
       <Comment>路由地址</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="629" parent="269" name="name">
+    <column id="630" parent="270" name="name">
       <Comment>路由名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="630" parent="269" name="url">
+    <column id="631" parent="270" name="url">
       <Comment>授权路径</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="631" parent="269" name="type">
+    <column id="632" parent="270" name="type">
       <Comment>权限类型(0-目录 1-菜单 2-按钮)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="632" parent="269" name="icon">
+    <column id="633" parent="270" name="icon">
       <Comment>图标</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="633" parent="269" name="create_time">
+    <column id="634" parent="270" name="create_time">
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="634" parent="269" name="update_time">
+    <column id="635" parent="270" name="update_time">
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="635" parent="269" name="remark">
+    <column id="636" parent="270" name="remark">
       <Comment>备注</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="636" parent="269" name="order_num">
+    <column id="637" parent="270" name="order_num">
       <Comment>排序</Comment>
       <DataType>int(11)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="637" parent="269" name="is_delete">
+    <column id="638" parent="270" name="is_delete">
       <Comment>是否删除(0-未删除，1-已删除)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>15</Position>
     </column>
-    <index id="638" parent="269" name="PRIMARY">
+    <index id="639" parent="270" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="639" parent="269" name="PRIMARY">
+    <key id="640" parent="270" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="640" parent="270" name="id">
+    <column id="641" parent="271" name="id">
       <AutoIncrement>4</AutoIncrement>
       <Comment>角色编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="641" parent="270" name="role_code">
+    <column id="642" parent="271" name="role_code">
       <Comment>角色编码</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="642" parent="270" name="role_name">
+    <column id="643" parent="271" name="role_name">
       <Comment>角色名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="643" parent="270" name="create_user">
+    <column id="644" parent="271" name="create_user">
       <Comment>创建人</Comment>
       <DataType>bigint(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="644" parent="270" name="create_time">
+    <column id="645" parent="271" name="create_time">
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="645" parent="270" name="update_time">
+    <column id="646" parent="271" name="update_time">
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="646" parent="270" name="remark">
+    <column id="647" parent="271" name="remark">
       <Comment>备注</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="647" parent="270" name="is_delete">
+    <column id="648" parent="271" name="is_delete">
       <Comment>是否删除(0-未删除，1-已删除)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>8</Position>
     </column>
-    <index id="648" parent="270" name="PRIMARY">
+    <index id="649" parent="271" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="649" parent="270" name="PRIMARY">
+    <key id="650" parent="271" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="650" parent="271" name="role_Id">
+    <column id="651" parent="272" name="role_Id">
       <Comment>角色ID</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="651" parent="271" name="permission_Id">
+    <column id="652" parent="272" name="permission_Id">
       <Comment>权限ID</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="652" parent="272" name="id">
+    <column id="653" parent="273" name="id">
       <AutoIncrement>7</AutoIncrement>
       <Comment>用户编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="653" parent="272" name="username">
+    <column id="654" parent="273" name="username">
       <Comment>登录名称(用户名)</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="654" parent="272" name="password">
+    <column id="655" parent="273" name="password">
       <Comment>登录密码</Comment>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="655" parent="272" name="is_account_non_expired">
+    <column id="656" parent="273" name="is_account_non_expired">
       <Comment>帐户是否过期(1-未过期，0-已过期)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="656" parent="272" name="is_account_non_locked">
+    <column id="657" parent="273" name="is_account_non_locked">
       <Comment>帐户是否被锁定(1-未过期，0-已过期)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="657" parent="272" name="is_credentials_non_expired">
+    <column id="658" parent="273" name="is_credentials_non_expired">
       <Comment>密码是否过期(1-未过期，0-已过期)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="658" parent="272" name="is_enabled">
+    <column id="659" parent="273" name="is_enabled">
       <Comment>帐户是否可用(1-可用，0-禁用)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="659" parent="272" name="real_name">
+    <column id="660" parent="273" name="real_name">
       <Comment>真实姓名</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="660" parent="272" name="nick_name">
+    <column id="661" parent="273" name="nick_name">
       <Comment>昵称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="661" parent="272" name="department_id">
+    <column id="662" parent="273" name="department_id">
       <Comment>所属部门ID</Comment>
       <DataType>bigint(20)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="662" parent="272" name="department_name">
+    <column id="663" parent="273" name="department_name">
       <Comment>所属部门名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="663" parent="272" name="gender">
+    <column id="664" parent="273" name="gender">
       <Comment>性别(0-男，1-女)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="664" parent="272" name="phone">
+    <column id="665" parent="273" name="phone">
       <Comment>电话</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="665" parent="272" name="email">
+    <column id="666" parent="273" name="email">
       <Comment>邮箱</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="666" parent="272" name="avatar">
+    <column id="667" parent="273" name="avatar">
       <Comment>用户头像</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;https://manong-authority.oss-cn-guangzhou.aliyuncs.com/avatar/default-avatar.gif&apos;</DefaultExpression>
       <Position>15</Position>
     </column>
-    <column id="667" parent="272" name="is_admin">
+    <column id="668" parent="273" name="is_admin">
       <Comment>是否是管理员(1-管理员)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>16</Position>
     </column>
-    <column id="668" parent="272" name="create_time">
+    <column id="669" parent="273" name="create_time">
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="669" parent="272" name="update_time">
+    <column id="670" parent="273" name="update_time">
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="670" parent="272" name="is_delete">
+    <column id="671" parent="273" name="is_delete">
       <Comment>是否删除(0-未删除，1-已删除)</Comment>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>19</Position>
     </column>
-    <index id="671" parent="272" name="PRIMARY">
+    <index id="672" parent="273" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="672" parent="272" name="PRIMARY">
+    <key id="673" parent="273" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="673" parent="273" name="user_id">
+    <column id="674" parent="274" name="user_id">
       <Comment>用户编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="674" parent="273" name="role_id">
+    <column id="675" parent="274" name="role_id">
       <Comment>角色编号</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="675" parent="274" name="id">
+    <column id="676" parent="275" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="676" parent="274" name="loggedder">
+    <column id="677" parent="275" name="loggedder">
       <Comment>登录者</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="677" parent="274" name="agent">
+    <column id="678" parent="275" name="agent">
       <Comment>代理者人</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="678" parent="274" name="start_date">
+    <column id="679" parent="275" name="start_date">
       <Comment>代理开始时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="679" parent="274" name="end_date">
+    <column id="680" parent="275" name="end_date">
       <Comment>代理结束时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="680" parent="274" name="agent_document">
+    <column id="681" parent="275" name="agent_document">
       <Comment>代理者单据</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="681" parent="275" name="id">
+    <column id="682" parent="276" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="682" parent="275" name="name">
+    <column id="683" parent="276" name="name">
       <Comment>出差人员</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="683" parent="275" name="travel_date">
+    <column id="684" parent="276" name="travel_date">
       <Comment>出差日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="684" parent="275" name="return_date">
+    <column id="685" parent="276" name="return_date">
       <Comment>返回日期</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="685" parent="275" name="travel_things">
+    <column id="686" parent="276" name="travel_things">
       <Comment>出差事由</Comment>
       <DataType>varchar(100)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="686" parent="275" name="financial_resources">
+    <column id="687" parent="276" name="financial_resources">
       <Comment>经费来源（金额）</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="687" parent="275" name="vehicle">
+    <column id="688" parent="276" name="vehicle">
       <Comment>交通工具</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="688" parent="275" name="travel_place">
+    <column id="689" parent="276" name="travel_place">
       <Comment>出差地点</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="689" parent="275" name="travel_days">
+    <column id="690" parent="276" name="travel_days">
       <Comment>出差天数</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>9</Position>
     </column>
-    <index id="690" parent="275" name="PRIMARY">
+    <index id="691" parent="276" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="691" parent="275" name="PRIMARY">
+    <key id="692" parent="276" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="692" parent="276" name="id">
+    <column id="693" parent="277" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="693" parent="276" name="username">
+    <column id="694" parent="277" name="username">
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="694" parent="276" name="password">
+    <column id="695" parent="277" name="password">
       <DataType>varchar(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="695" parent="277" name="id">
+    <column id="696" parent="278" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="696" parent="277" name="name">
+    <column id="697" parent="278" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(12)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="697" parent="277" name="key_id">
+    <column id="698" parent="278" name="key_id">
       <Comment>身份证</Comment>
       <DataType>varchar(18)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="698" parent="277" name="month">
+    <column id="699" parent="278" name="month">
       <Comment>月份</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="699" parent="277" name="salary_payable">
+    <column id="700" parent="278" name="salary_payable">
       <Comment>应发薪金</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="700" parent="277" name="net_salary">
+    <column id="701" parent="278" name="net_salary">
       <Comment>实发薪金</Comment>
       <DataType>varchar(15)|0s</DataType>
       <Position>6</Position>
     </column>
-    <index id="701" parent="277" name="PRIMARY">
+    <index id="702" parent="278" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="702" parent="277" name="PRIMARY">
+    <key id="703" parent="278" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="703" parent="278" name="id">
+    <column id="704" parent="279" name="id">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="704" parent="278" name="key_card">
+    <column id="705" parent="279" name="key_card">
       <Comment>门卡</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="705" parent="278" name="other_equipment">
+    <column id="706" parent="279" name="other_equipment">
       <Comment>其他设备</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="706" parent="278" name="comment">
+    <column id="707" parent="279" name="comment">
       <Comment>备注</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="707" parent="278" name="is_borrow_material">
+    <column id="708" parent="279" name="is_borrow_material">
       <Comment>是否有向档案室借阅资料</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="708" parent="278" name="is_all_return">
+    <column id="709" parent="279" name="is_all_return">
       <Comment>是否已全部归还</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="709" parent="278" name="is_borrow_money">
+    <column id="710" parent="279" name="is_borrow_money">
       <Comment>是否有借款</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="710" parent="278" name="is_return_money">
+    <column id="711" parent="279" name="is_return_money">
       <Comment>是否还清</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="711" parent="278" name="other_explain">
+    <column id="712" parent="279" name="other_explain">
       <Comment>其他说明</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="712" parent="278" name="is_sign_resign">
+    <column id="713" parent="279" name="is_sign_resign">
       <Comment>是否签订离岗保密承诺书</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="713" parent="278" name="is_connect_all">
+    <column id="714" parent="279" name="is_connect_all">
       <Comment>是否已交接清楚全部资料</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="714" parent="278" name="work_other_explain">
+    <column id="715" parent="279" name="work_other_explain">
       <Comment>工作其他说明</Comment>
       <DataType>varchar(50)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="715" parent="278" name="resign_date">
+    <column id="716" parent="279" name="resign_date">
       <Comment>离岗日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="716" parent="279" name="id">
+    <column id="717" parent="280" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="717" parent="279" name="name">
+    <column id="718" parent="280" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="718" parent="279" name="department">
+    <column id="719" parent="280" name="department">
       <Comment>部门</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="719" parent="279" name="work_type">
+    <column id="720" parent="280" name="work_type">
       <Comment>加班类型</Comment>
       <DataType>varchar(5)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="720" parent="279" name="start_date">
+    <column id="721" parent="280" name="start_date">
       <Comment>加班开始时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="721" parent="279" name="end_date">
+    <column id="722" parent="280" name="end_date">
       <Comment>加班结束时间</Comment>
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="722" parent="279" name="reasons">
+    <column id="723" parent="280" name="reasons">
       <Comment>事由</Comment>
       <DataType>varchar(10)|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="723" parent="279" name="PRIMARY">
+    <index id="724" parent="280" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="724" parent="279" name="PRIMARY">
+    <key id="725" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

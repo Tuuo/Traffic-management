@@ -21,4 +21,6 @@ public interface PermissionMapper extends BaseMapper<Permission> {
      * @return
      */
     List<Permission> findPermissionListByUserId(Long userId);
+
+    List<Permission> findPermissionListByRoleId(Long roleId);
 }

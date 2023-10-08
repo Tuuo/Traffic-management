@@ -1,17 +1,21 @@
 package com.isoft.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
+import com.isoft.dao.UserMapper;
 import com.isoft.entity.Permission;
 import com.isoft.dao.PermissionMapper;
+import com.isoft.entity.User;
 import com.isoft.service.PermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.isoft.utils.MenuTree;
 import com.isoft.vo.query.PermissionQueryVo;
+import com.isoft.vo.query.RolePermissionVo;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Arrays;
-import java.util.List;
+import javax.annotation.Resource;
+import java.util.*;
 
 /**
  * <p>
@@ -24,6 +28,9 @@ import java.util.List;
 @Service
 @Transactional
 public class PermissionServiceImpl extends ServiceImpl<PermissionMapper, Permission> implements PermissionService {
+
+    @Resource
+    private UserMapper userMapper;
 
     @Override
     public List<Permission> findPermissionListByUserId(Long userId) {
@@ -92,6 +99,49 @@ public class PermissionServiceImpl extends ServiceImpl<PermissionMapper, Permiss
             return true;
         }
         return false;
+    }
+
+    @Override
+    public RolePermissionVo findPermissionTree(Long userId, Long roleId) {
+        //1.查询当前用户信息
+        User user = userMapper.selectById(userId);
+        List<Permission> list = null;
+        //2.判断当前用户角色，如果是管理员，则查询所有权限；如果不是管理员，则只查询自己所拥有的的权限
+        if (!ObjectUtils.isEmpty(user.getIsAdmin()) && user.getIsAdmin() == 1) {
+            //查询所有权限
+            list = baseMapper.selectList(null);
+        } else {
+            //根据用户ID查询
+            list = baseMapper.findPermissionListByUserId(userId);
+        }
+        //3.组装成树数据
+        List<Permission> permissionList = MenuTree.makeMenuTree(list, 0L);
+        //4.查询要分配角色的原有权限
+        List<Permission> rolePermissions =
+                baseMapper.findPermissionListByRoleId(roleId);
+        //5.找出该角色存在的数据
+        List<Long> listIds = new ArrayList<Long>();
+        Optional.ofNullable(list).orElse(new ArrayList<>())
+                .stream()
+                .filter(Objects::nonNull) //等同于 obj -> obj!=null
+                .forEach(item -> {
+                    Optional.ofNullable(rolePermissions).orElse(new ArrayList<>())
+                            .stream()
+                            .filter(Objects::nonNull)
+                            .forEach(im -> {
+                                if (item.getId().equals(im.getId())) {
+                                    listIds.add(im.getId());
+//                                    System.out.println(listIds);
+                                    return;
+                                }
+                            });
+                });
+        //创建
+        RolePermissionVo vo = new RolePermissionVo();
+        vo.setPermissionList(permissionList);
+        vo.setCheckList(listIds.toArray());
+        return vo;
+
     }
 
 }
