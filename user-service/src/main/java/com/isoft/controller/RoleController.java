@@ -3,6 +3,7 @@ package com.isoft.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.isoft.dto.RolePermissionDTO;
 import com.isoft.entity.Role;
 import com.isoft.service.PermissionService;
 import com.isoft.service.RoleService;
@@ -107,6 +108,20 @@ public class RoleController {
                 permissionService.findPermissionTree(userId, roleId);
         //返回数据
         return Result.ok(permissionTree);
+    }
+
+    /**
+     * 分配权限-保存权限数据
+     * @param rolePermissionDTO
+     * @return
+     */
+    @PostMapping("/saveRoleAssign")
+    public Result saveRoleAssign(@RequestBody RolePermissionDTO rolePermissionDTO){
+        if (roleService.saveRolePermission(rolePermissionDTO.getRoleId(),rolePermissionDTO.getList())){
+            return Result.ok().message("权限分配成功");
+        }else {
+            return Result.error().message("权限分配失败");
+        }
     }
 
 

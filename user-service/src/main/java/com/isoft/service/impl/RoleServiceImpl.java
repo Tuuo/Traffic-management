@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * <p>
@@ -65,5 +66,14 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
         baseMapper.deleteRolePermissionByRoleId(id);
         //删除角色
         return baseMapper.deleteById(id)>0;
+    }
+
+    @Override
+    @Transactional(rollbackFor = RuntimeException.class)
+    public boolean saveRolePermission(Long roleId, List<Long> permissionIds) {
+        //删除该角色对应的权限信息
+        baseMapper.deleteRolePermission(roleId);
+        //保存角色信息
+        return baseMapper.saveRolePermission(roleId,permissionIds) >0;
     }
 }

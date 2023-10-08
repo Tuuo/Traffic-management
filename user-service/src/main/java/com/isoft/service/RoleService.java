@@ -5,6 +5,8 @@ import com.isoft.entity.Role;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.isoft.vo.query.RoleQueryVo;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务类
@@ -36,4 +38,13 @@ public interface RoleService extends IService<Role> {
      * @return
      */
     boolean deleteRoleById(Long id);
+
+    /**
+     * 保存角色权限关系
+     * @param roleId
+     * @param permissionIds
+     * @return
+     */
+    boolean saveRolePermission(Long roleId, List<Long> permissionIds);
+
 }
