@@ -3,10 +3,7 @@ package com.isoft.controller;
 import com.isoft.entity.MyTask;
 import com.isoft.service.HomePageService;
 import com.isoft.utils.Result;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -24,8 +21,8 @@ public class HomePageController {
     }
 
 
-    @PutMapping("/add")
-    public Result myTask(MyTask myTask){
+    @PostMapping("/add")
+    public Result myTask(@RequestBody MyTask myTask){
          if(homePageService.save(myTask)){
              return Result.ok().message("添加任务成功");
          }
