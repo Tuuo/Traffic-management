@@ -39,4 +39,21 @@ public class MyApprovalController {
         return Result.ok(myApprovals);
     }
 
+    @PutMapping("/update")
+    public Result updateApproval(@RequestBody MyApproval myApproval){
+        boolean b = myApprovalService.updateById(myApproval);
+        if (b){
+            return Result.ok().message("审批成功");
+        }else {
+            return Result.error().message("审批失败");
+        }
+    }
+    @DeleteMapping("/delete/{id}")
+    public Result delete(@PathVariable Long id) {
+        if (myApprovalService.removeById(id)) {
+            return Result.ok();
+        }
+        return Result.error();
+    }
+
 }

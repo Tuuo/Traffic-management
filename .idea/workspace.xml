@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="首页，任务通知">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyApprovalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyHandledController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/MyApprovalMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/MyHandledMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MyApproval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MyHandled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MyApprovalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MyHandledService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MyApprovalServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MyHandledServiceImpl.java" afterDir="false" />
+    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="首页，我的审批">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/test/com/isoft/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/test/com/isoft/TestTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyApprovalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyApprovalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MyApproval.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MyApproval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +199,8 @@
       <workItem from="1696725409121" duration="8311000" />
       <workItem from="1696745021643" duration="11613000" />
       <workItem from="1696814141927" duration="13856000" />
-      <workItem from="1696897265593" duration="10825000" />
+      <workItem from="1696897265593" duration="10854000" />
+      <workItem from="1697004115986" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -314,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696864048645</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="首页，我的审批">
+      <created>1696944456539</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696944456539</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +347,8 @@
     <MESSAGE value="分配权限回显" />
     <MESSAGE value="首页，我的任务" />
     <MESSAGE value="首页，任务通知" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页，任务通知" />
+    <MESSAGE value="首页，我的审批" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页，我的审批" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
