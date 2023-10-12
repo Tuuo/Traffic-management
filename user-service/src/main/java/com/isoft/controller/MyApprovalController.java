@@ -3,6 +3,7 @@ package com.isoft.controller;
 import com.isoft.entity.MyApproval;
 import com.isoft.service.MyApprovalService;
 import com.isoft.utils.Result;
+import com.isoft.vo.query.MyApprovalQueryVo;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -32,7 +33,11 @@ public class MyApprovalController {
         }
 
     }
-
+    @GetMapping("/get")
+    public Result getById(MyApprovalQueryVo myApprovalQueryVo){
+       List<MyApproval> myApprovals =  myApprovalService.findApprovalList(myApprovalQueryVo);
+       return Result.ok(myApprovals);
+    }
     @GetMapping("/list")
     public Result listApproval() {
         List<MyApproval> myApprovals = myApprovalService.list();
@@ -49,7 +54,7 @@ public class MyApprovalController {
         }
     }
     @DeleteMapping("/delete/{id}")
-    public Result delete(@PathVariable Long id) {
+    public Result delete(@PathVariable Integer id) {
         if (myApprovalService.removeById(id)) {
             return Result.ok();
         }

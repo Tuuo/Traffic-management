@@ -13,5 +13,7 @@ public class MyHandled implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
     private String name;
+    private String opinion;
+    private String status;
     private String date;
 }
