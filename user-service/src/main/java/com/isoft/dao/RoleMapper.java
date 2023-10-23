@@ -49,4 +49,6 @@ public interface RoleMapper extends BaseMapper<Role> {
      */
     int saveRolePermission(Long roleId, List<Long> permissionIds);
 
+    @Select("SELECT * FROM sys_role WHERE role_name LIKE CONCAT('%', #{roleName}, '%')")
+    Role getRoleByName(String roleName);
 }

@@ -47,6 +47,12 @@ public class RoleController {
         return Result.ok(page);
     }
 
+    @PostMapping ("/getId")
+    public Result getId(@RequestBody Role role){
+        Role roleByName = roleService.findRoleByName(role.getRoleName());
+        return Result.ok(roleByName);
+    }
+
     /**
      * 添加角色
      */

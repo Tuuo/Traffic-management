@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="首页，我的审批">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/MyApprovalQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/FamilyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/BasicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/FamilyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/GroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Basic_information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/BasicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/FamilyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/BasicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/FamilyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/GroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/GroupQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/UserQueryVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6acae3e-10a8-4667-b906-80ed9d305d9f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a6acae3e-10a8-4667-b906-80ed9d305d9f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyApprovalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyApprovalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyHandledController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MyHandledController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MyHandled.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MyHandled.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MyApprovalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MyApprovalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MyApprovalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MyApprovalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/RoleQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/RoleQueryVo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +115,8 @@
       <recent name="F:\tips\NacosTeam08\user-service\src\main\java\com\isoft" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.isoft.vo.query" />
+      <recent name="com.isoft.entity" />
       <recent name="com.isoft.controller" />
       <recent name="com.isoft.dao" />
       <recent name="com.isoft.service" />
@@ -205,7 +227,16 @@
       <workItem from="1696814141927" duration="13856000" />
       <workItem from="1696897265593" duration="10854000" />
       <workItem from="1697004115986" duration="4746000" />
-      <workItem from="1697070166749" duration="7911000" />
+      <workItem from="1697070166749" duration="8204000" />
+      <workItem from="1697211123076" duration="4273000" />
+      <workItem from="1697259314373" duration="626000" />
+      <workItem from="1697273678473" duration="2317000" />
+      <workItem from="1697415407026" duration="4494000" />
+      <workItem from="1697502701885" duration="2604000" />
+      <workItem from="1697614922711" duration="40000" />
+      <workItem from="1697760891341" duration="11286000" />
+      <workItem from="1697803910158" duration="6799000" />
+      <workItem from="1698020508077" duration="11202000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -326,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697034745890</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="首页，我的审批">
+      <created>1697084339777</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697084339777</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,17 +399,6 @@
     <MESSAGE value="首页，任务通知" />
     <MESSAGE value="首页，我的审批" />
     <option name="LAST_COMMIT_MESSAGE" value="首页，我的审批" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MyApprovalServiceImpl.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -47,4 +47,5 @@ public interface RoleService extends IService<Role> {
      */
     boolean saveRolePermission(Long roleId, List<Long> permissionIds);
 
+    Role findRoleByName(String roleName);
 }
