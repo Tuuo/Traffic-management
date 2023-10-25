@@ -2,37 +2,37 @@ package com.isoft.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.isoft.entity.Family;
-import com.isoft.entity.Group;
-import com.isoft.entity.Role;
-import com.isoft.service.FamilyService;
-import com.isoft.service.GroupService;
+import com.isoft.entity.Meeting;
+import com.isoft.entity.Notification;
+import com.isoft.service.MeetingService;
+import com.isoft.service.NotificationService;
 import com.isoft.utils.Result;
-import com.isoft.vo.query.GroupQueryVo;
+import com.isoft.vo.query.MeetingQueryVo;
+import com.isoft.vo.query.NotificationQueryVo;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @RestController
-@RequestMapping("/api/group")
-public class GroupController {
+@RequestMapping("/api/meeting")
+public class MeetingController {
+
     @Resource
-    private GroupService groupService;
+    private MeetingService meetingService;
 
     @GetMapping("/list")
-    public Result getList(GroupQueryVo groupQueryVo){
+    public Result getList(MeetingQueryVo groupQueryVo){
         //创建分页对象
-        IPage<Group> page = new Page<Group>(groupQueryVo.getPageNo(), groupQueryVo.getPageSize());
+        IPage<Meeting> page = new Page<Meeting>(groupQueryVo.getPageNo(), groupQueryVo.getPageSize());
         //调用分页查询方法
-        groupService.findRoleListByUserId(page, groupQueryVo);
+        meetingService.findRoleListByUserId(page, groupQueryVo);
         //返回数据
         return Result.ok(page);
     }
 
     @PostMapping("/add")
-    public Result addGroup(@RequestBody Group group) {
-        boolean save = groupService.save(group);
+    public Result addGroup(@RequestBody Meeting group) {
+        boolean save = meetingService.save(group);
         if (save){
             return Result.ok().message("添加成功");
 
@@ -40,8 +40,8 @@ public class GroupController {
         return Result.error().message("添加失败");
     }
     @PutMapping("/update")
-    public Result updateGroup(@RequestBody Group group){
-        boolean b = groupService.updateById(group);
+    public Result updateGroup(@RequestBody Meeting group){
+        boolean b = meetingService.updateById(group);
         if (b){
             return Result.ok();
 
@@ -50,7 +50,7 @@ public class GroupController {
     }
     @DeleteMapping("/delete/{id}")
     public Result deleteGroup(@PathVariable Integer id){
-        if (groupService.removeById(id)) {
+        if (meetingService.removeById(id)) {
             return Result.ok().message("删除成功");
         }
         return Result.error().message("删除失败");

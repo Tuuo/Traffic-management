@@ -4,24 +4,22 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.isoft.dao.BasicMapper;
 import com.isoft.dao.GroupMapper;
-import com.isoft.entity.Basic_information;
+import com.isoft.dao.NotificationMapper;
 import com.isoft.entity.Group;
-import com.isoft.entity.Role;
-import com.isoft.entity.User;
-import com.isoft.service.BasicService;
+import com.isoft.entity.Notification;
 import com.isoft.service.GroupService;
+import com.isoft.service.NotificationService;
 import com.isoft.vo.query.GroupQueryVo;
+import com.isoft.vo.query.NotificationQueryVo;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GroupServiceImpl extends ServiceImpl<GroupMapper, Group> implements GroupService {
-    @Override
-    public IPage<Group> findRoleListByUserId(IPage<Group> page, GroupQueryVo groupQueryVo) {
-        QueryWrapper<Group> queryWrapper = new QueryWrapper<>();
+public class NotificationServiceImpl extends ServiceImpl<NotificationMapper, Notification> implements NotificationService {
+    public IPage<Notification> findRoleListByUserId(IPage<Notification> page, NotificationQueryVo groupQueryVo) {
+        QueryWrapper<Notification> queryWrapper = new QueryWrapper<>();
         //角色名称
-        queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getGroupName()),"group_name",groupQueryVo.getGroupName());
+        queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getTitle()),"title",groupQueryVo.getTitle());
         //排序
         queryWrapper.orderByAsc("id");
 //        queryWrapper.eq("create_user",groupQueryVo.getId());
