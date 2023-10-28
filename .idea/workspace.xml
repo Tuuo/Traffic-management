@@ -4,30 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="个人信息和通告管理">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MeetingAppointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MeetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/MeetingAppointmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/MeetingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/NotificationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Meeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MeetingAppointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MeetingAppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MeetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MeetingAppointmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MeetingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/NotificationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/MeetingAppointmentQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/MeetingQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/NotificationQueryVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6acae3e-10a8-4667-b906-80ed9d305d9f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a6acae3e-10a8-4667-b906-80ed9d305d9f.xml" afterDir="false" />
+    <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="通告管理和会议管理">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/config/oss/OssProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/EggSetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MaintainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/MaintainResultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/OSSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/TopUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/WorkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/EggSetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/MaintainMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/MaintainResultMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/TopUpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/WorkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dto/UserRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/EggSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Maintain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/MaintainResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/TopUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/EggSetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MaintainResultService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/MaintainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/TopUpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/WorkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/EggSetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MaintainResultServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MaintainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/TopUpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/WorkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/EggSetQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/MaintainQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/MaintainResultQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/TopUpQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/WorkQueryVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/GroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/GroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/GroupServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/GroupQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/GroupQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/UserQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/UserQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +105,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "F:/tips/NacosTeam08/user-service/src/main/java/com/isoft/controller",
+    "last_opened_file_path": "F:/tips/NacosTeam08/user-service/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -104,18 +129,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\tips\NacosTeam08\user-service\src\main\java\com\isoft\controller" />
       <recent name="F:\tips\NacosTeam08\user-service\src\main\resources" />
+      <recent name="F:\tips\NacosTeam08\user-service\src\main\java\com\isoft\controller" />
       <recent name="F:\tips\NacosTeam08\user-service\src\main\java\com\isoft\service\impl" />
       <recent name="F:\tips\NacosTeam08\user-service\src\main\java\com\isoft\service" />
       <recent name="F:\tips\NacosTeam08\user-service\src\main\java\com\isoft" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.isoft.controller" />
-      <recent name="com.isoft.dao" />
       <recent name="com.isoft.service.impl" />
       <recent name="com.isoft.vo.query" />
       <recent name="com.isoft.service" />
+      <recent name="com.isoft.dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,7 +258,13 @@
       <workItem from="1697760891341" duration="11286000" />
       <workItem from="1697803910158" duration="6799000" />
       <workItem from="1698020508077" duration="11330000" />
-      <workItem from="1698194114092" duration="10998000" />
+      <workItem from="1698194114092" duration="11487000" />
+      <workItem from="1698243906575" duration="629000" />
+      <workItem from="1698288359971" duration="6419000" />
+      <workItem from="1698366105269" duration="5392000" />
+      <workItem from="1698396980746" duration="857000" />
+      <workItem from="1698416679322" duration="1467000" />
+      <workItem from="1698466653982" duration="11206000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -368,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698069291985</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="通告管理和会议管理">
+      <created>1698243606280</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698243606280</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +441,8 @@
     <MESSAGE value="首页，任务通知" />
     <MESSAGE value="首页，我的审批" />
     <MESSAGE value="个人信息和通告管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人信息和通告管理" />
+    <MESSAGE value="通告管理和会议管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="通告管理和会议管理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

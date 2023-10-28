@@ -5,6 +5,8 @@ import com.isoft.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.isoft.vo.query.UserQueryVo;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务类
@@ -25,4 +27,18 @@ public interface UserService extends IService<User> {
      */
     IPage<User> findUserListByPage(IPage<User> page, UserQueryVo userQueryVo);
 
+    User findUserByUserName(String username);
+    /**
+     * 删除用户信息
+     * @param id
+     * @return
+     */
+    boolean deleteById(Long id);
+    /**
+     * 分配角色
+     * @param userId
+     * @param roleIds
+     * @return
+     */
+    boolean saveUserRole(Long userId, List<Long> roleIds);
 }

@@ -12,11 +12,11 @@ spring:
       discovery:
         server-addr: localhost:8848
       #        namespace: 10ecded1-361f-45d7-a009-ad2355304ff5
-#      config:
-#        server-addr: localhost:8848
-#        #        namespace: 10ecded1-361f-45d7-a009-ad2355304ff5
-#        prefix: order
-#        file-extension: yml
+  #      config:
+  #        server-addr: localhost:8848
+  #        #        namespace: 10ecded1-361f-45d7-a009-ad2355304ff5
+  #        prefix: order
+  #        file-extension: yml
   application:
     name: user
   jackson:
@@ -40,8 +40,8 @@ mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
   type-aliases-package: com.isoft.entity
   #配置sql打印日志
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #  configuration:
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
   global-config:
     db-config:
@@ -61,6 +61,15 @@ jwt:
 request:
   login:
     url: /api/user/login
+#阿里云OSS配置
+
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAI5tDRj3MTKMkfhpP3TgxH
+      keysecret: HIA8D61EHNNYmiV87y5rjNdL66NpCT
+      bucketname: image-xiuqing
 
 
 

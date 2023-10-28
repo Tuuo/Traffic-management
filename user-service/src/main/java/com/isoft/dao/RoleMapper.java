@@ -51,4 +51,12 @@ public interface RoleMapper extends BaseMapper<Role> {
 
     @Select("SELECT * FROM sys_role WHERE role_name LIKE CONCAT('%', #{roleName}, '%')")
     Role getRoleByName(String roleName);
+
+    /**
+     * 根据用户ID查询该用户拥有的角色ID
+     * @param userId
+     * @return
+     */
+    @Select("select role_id from `sys_user_role` where user_id = #{userId}")
+    List<Long> findRoleIdByUserId(Long userId);
 }

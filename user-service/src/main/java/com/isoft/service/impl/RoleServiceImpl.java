@@ -82,4 +82,15 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
         Role role = baseMapper.getRoleByName(roleName);
         return role;
     }
+    /**
+     * 根据用户ID查询该用户拥有的角色ID
+     *
+     * @param userId
+     * @return
+     */
+    @Override
+    public List<Long> findRoleIdByUserId(Long userId) {
+        return baseMapper.findRoleIdByUserId(userId);
+    }
+
 }
