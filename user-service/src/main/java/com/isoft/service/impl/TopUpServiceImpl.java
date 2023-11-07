@@ -19,7 +19,7 @@ public class TopUpServiceImpl extends ServiceImpl<TopUpMapper, TopUp> implements
     public IPage<TopUp> findRoleListByUserId(IPage<TopUp> page, TopUpQueryVo groupQueryVo) {
         QueryWrapper<TopUp> queryWrapper = new QueryWrapper<>();
         //角色名称
-        queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getName()),"person",groupQueryVo.getName());
+        queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getName()),"name",groupQueryVo.getName());
         //排序
         queryWrapper.orderByAsc("id");
 //        queryWrapper.eq("create_user",groupQueryVo.getId());

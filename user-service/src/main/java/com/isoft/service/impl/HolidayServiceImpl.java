@@ -4,20 +4,20 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.isoft.dao.EggSetMapper;
-import com.isoft.dao.MaintainResultMapper;
-import com.isoft.entity.EggSet;
-import com.isoft.entity.MaintainResult;
-import com.isoft.service.EggSetService;
-import com.isoft.service.MaintainResultService;
-import com.isoft.vo.query.EggSetQueryVo;
-import com.isoft.vo.query.MaintainResultQueryVo;
+import com.isoft.dao.HolidayMapper;
+import com.isoft.dao.ReturnMapper;
+import com.isoft.entity.Holiday;
+import com.isoft.entity.Return;
+import com.isoft.service.HolidayService;
+import com.isoft.service.ReturnService;
+import com.isoft.vo.query.HolidayQueryVo;
+import com.isoft.vo.query.ReturnQueryVo;
 import org.springframework.stereotype.Service;
 
 @Service
-public class EggSetServiceImpl extends ServiceImpl<EggSetMapper, EggSet> implements EggSetService {
-    public IPage<EggSet> findRoleListByUserId(IPage<EggSet> page, EggSetQueryVo groupQueryVo) {
-        QueryWrapper<EggSet> queryWrapper = new QueryWrapper<>();
+public class HolidayServiceImpl extends ServiceImpl<HolidayMapper, Holiday> implements HolidayService {
+    public IPage<Holiday> findRoleListByUserId(IPage<Holiday> page, HolidayQueryVo groupQueryVo) {
+        QueryWrapper<Holiday> queryWrapper = new QueryWrapper<>();
         //角色名称
         queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getName()),"name",groupQueryVo.getName());
         //排序
