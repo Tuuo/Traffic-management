@@ -19,7 +19,7 @@ public class MeetingAppointmentServiceImpl extends ServiceImpl<MeetingAppointmen
     public IPage<MeetingAppointment> findRoleListByUserId(IPage<MeetingAppointment> page, MeetingAppointmentQueryVo groupQueryVo) {
         QueryWrapper<MeetingAppointment> queryWrapper = new QueryWrapper<>();
         //角色名称
-        queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getName()),"name",groupQueryVo.getName());
+        queryWrapper.like(!ObjectUtils.isEmpty(groupQueryVo.getTitle()),"title",groupQueryVo.getTitle());
         //排序
         queryWrapper.orderByAsc("id");
 //        queryWrapper.eq("create_user",groupQueryVo.getId());

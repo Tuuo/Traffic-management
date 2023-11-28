@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2478429c-131b-4d1a-94d1-c5c8f216e70d" name="Changes" comment="最长的一个">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/controller/DailyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/dao/DailySetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/entity/Daily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/DailyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/DailyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/vo/query/DailyQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/test/com/isoft/TryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MeetingAppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/isoft/service/impl/MeetingAppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/test/com/isoft/TestTask.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +69,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/tips/NacosTeam08/user-service/src/main/resources&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.50344825&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -92,8 +100,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.isoft.controller" />
       <recent name="com.isoft.service.impl" />
-      <recent name="com.isoft.service" />
       <recent name="com.isoft.vo.query" />
+      <recent name="com.isoft.service" />
       <recent name="com.isoft.dao" />
     </key>
   </component>
@@ -105,6 +113,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration name="TryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.isoft.TryDemo" />
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestTask.getTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-service" />
       <extension name="coverage">
@@ -150,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryDemo" />
         <item itemvalue="JUnit.TestTask.getTask" />
         <item itemvalue="Spring Boot.OrderServiceApplication" />
       </list>
@@ -235,6 +257,15 @@
       <workItem from="1699595965124" duration="608000" />
       <workItem from="1699622904298" duration="135000" />
       <workItem from="1699623050817" duration="1283000" />
+      <workItem from="1699835039016" duration="982000" />
+      <workItem from="1700185054981" duration="2918000" />
+      <workItem from="1700204709743" duration="1691000" />
+      <workItem from="1700282042852" duration="1238000" />
+      <workItem from="1700376304943" duration="347000" />
+      <workItem from="1700440158791" duration="2344000" />
+      <workItem from="1700564345854" duration="1380000" />
+      <workItem from="1700815065159" duration="731000" />
+      <workItem from="1701151128787" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1694593010737</created>
@@ -390,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699336682166</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="最长的一个">
+      <created>1699835076190</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699835076190</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
